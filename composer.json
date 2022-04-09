@@ -1,0 +1,22 @@
+{
+  "name": "berryllium/diplom-subject",
+  "description": "Тематики статей",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Горкун Дмитрий",
+      "email": "gorkundp@yandex.ru",
+      "homepage": "https://github.com/berryllium",
+      "role": "Creator"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Diplom\\ArticleSubjectProviderBundle\\": "/src"
+    }
+  }
+}
